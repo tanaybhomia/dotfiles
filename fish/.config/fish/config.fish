@@ -131,6 +131,8 @@ if status is-interactive
     alias jsol="java Solution"
 
     # --- Editors & Configs ---
+    abbr -a dot "cd ~/Dev/dotfiles"
+    abbr -a dotag "cd ~/Dev/dotfiles && antigravity ."
     alias ed="gnome-text-editor"
     alias gd="gnome-text-editor"
     alias fishconf="gnome-text-editor ~/.config/fish/config.fish"
