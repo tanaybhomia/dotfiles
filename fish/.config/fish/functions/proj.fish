@@ -13,7 +13,7 @@ function proj --description "Quickly switch to a project in ~/Dev and open in An
 
     if test -n "$selected"
         cd "$selected"
-        echo -s (set_color 2190A4) "🚀 Opening "(basename "$selected")" in Antigravity..." (set_color normal)
+        echo -s (set_color 2190A4) " Opening "(basename "$selected")" in Antigravity..." (set_color normal)
         antigravity .
     end
 end
