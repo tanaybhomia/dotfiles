@@ -27,7 +27,7 @@ function new --description "Display a minimalist cheat sheet of newly added term
 
     echo -e "$bold Top Abbreviations $grey(type + space/enter to expand)$reset"
     echo -e "  $grey Dotfiles $reset         $blue dotup $reset(auto add & commit dotfiles repo from ANYWHERE!)"
-    echo -e "  $grey Git $reset              $blue g $reset(git)  $blue gs $reset(status)  $blue ga $reset(add .)  $blue gcm $reset(commit -m)  $blue gp $reset(pull)  $blue gl $reset(graph)  $blue lg $reset(lazygit)"
+    echo -e "  $grey Git $reset              $blue g $reset(git)  $blue gs $reset(status)  $blue ga $reset(add .)  $blue gun $reset(unstage)  $blue gcm $reset(commit -m)  $blue gp $reset(pull)  $blue gl $reset(graph)  $blue lg $reset(lazygit)"
     echo -e "  $grey System $reset           $blue dnfin $reset(install)  $blue dnfout $reset(remove)  $blue flatin $reset(install)  $blue update $reset(dnf + flatpak)"
     echo -e "  $grey File & Work $reset      $blue rm $reset(trash)  $blue wrk $reset(work start)  $blue wrkd $reset(work day)  $blue venv $reset / $blue act $reset(python venv)\n"
 end

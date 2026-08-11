@@ -42,7 +42,7 @@ if status is-interactive
     end
 
     # Run custom Work Fetch greeting
-    workfetch DSA Aptitude
+    # workfetch DSA Aptitude
 
     # Apply fzf color scheme (matched to GNOME Light/Dark mode)
     set_fzf_theme
@@ -83,14 +83,14 @@ if status is-interactive
     abbr -a rm "trash"
     abbr -a tc "touch"
     abbr -a md "mkdir -p"
-    abbr -a cl "clear && workfetch DSA Aptitude"
-    abbr -a clr "clear"
+    abbr -a cl "clear"
     abbr -a src "source ~/.config/fish/config.fish"
 
     # --- Git Superpowers (#1 Most Used Command) ---
     abbr -a g "git"
     abbr -a gs "git status"
     abbr -a ga "git add ."
+    abbr -a gun "git restore --staged ."
     abbr -a gcm "git commit -m"
     abbr -a gpm "git push origin main"
     abbr -a gp "git pull"
